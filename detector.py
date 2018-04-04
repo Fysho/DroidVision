@@ -4,7 +4,7 @@ import cv2
 
 # Name of Video to Open. Works well on 1,2,6
 videonumber = 1
-url = ('video' + str(videonumber) + '.mp4')
+url = ('Videos/video' + str(videonumber) + '.mp4')
 
 # Loading Video
 cap = cv2.VideoCapture(url)
